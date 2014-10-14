@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<Params>
+	<AnimationList>
+		<Animation name="#filepath" path="animations\human"/>
+		<Comment value="-------EVENT DATABASE-------"/>
+		<Comment value="-- Cinematic"/>
+		<Animation name="*" path="story\genericMale\*.caf"/>
+		
+		<Animation name="#filepath" path="animations\human\male\weapons\generic\3p"/>
+		<Animation name="generic_tac_LookPoses_fullbody_3p_01" path="stand_tac_LookPoses_fullbody_3p_01.caf"/>
+		<Animation name="generic_tac_LookPoses_head_3p_01" path="stand_tac_LookPoses_head_3p_01.caf"/>
+	</AnimationList>
+</Params>

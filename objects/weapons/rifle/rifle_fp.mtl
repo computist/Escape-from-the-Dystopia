@@ -1,0 +1,27 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="Metal_1" MtlFlags="524416" Shader="Illum" GenMask="82201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING%GLOSS_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.46474114,0.46474114,0.46474114" Specular="0.31118053,0.31118053,0.31118053" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/rifle/textures/rifle_a_diff.tif" Filter="5"/>
+    <Texture Map="Specular" File="objects/weapons/rifle/textures/rifle_a_spec.tif" Filter="5"/>
+    <Texture Map="Bumpmap" File="objects/weapons/rifle/textures/rifle_a_ddn.tif" Filter="5"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_scratches_a_detail.dds">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0.40000001" SpecMapChannelG="0" FresnelScale="4" DetailDiffuseScale="0.5" FresnelBias="0.51599997" DetailBumpScale="1" DetailGlossScale="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Metal_2" MtlFlags="524416" Shader="Illum" GenMask="82201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING%GLOSS_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.38377467,0.38377467,0.38377467" Specular="0.15105805,0.15105805,0.15105805" Emissive="0,0,0" Shininess="150" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/rifle/textures/rifle_b_diff.tif" Filter="5"/>
+    <Texture Map="Specular" File="objects/weapons/rifle/textures/rifle_b_spec.tif" Filter="5"/>
+    <Texture Map="Bumpmap" File="objects/weapons/rifle/textures/rifle_b_ddn.tif" Filter="5"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/plastic/fibreplastics_detail.dds">
+     <TexMod TileU="20" TileV="20"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1.03" DetailDiffuseScale="0.5" FresnelBias="0.778" DetailBumpScale="1" DetailGlossScale="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

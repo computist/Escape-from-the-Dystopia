@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<Params>
+	<AnimationList>
+		<Animation name="#filepath" path="Animations\1st_person\rocket_launcher_fp\"/>
+		<Animation name="$TracksDatabase" path="animations\1st_person\rocket_launcher_fp\rocket_launcher_fp.dba"/>
+
+
+		<Animation name="deselect_ironsight" path="deselect_ironsight.caf"/>
+		<Animation name="bindingPose_rocketLauncher" path="bindingPose_rocketLauncher.caf"/>	
+		<Animation name="deselect" path="deselect.caf"/>
+		<Animation name="fire" path="fire.caf"/>
+		<Animation name="idle" path="Idle.caf"/>
+		<Animation name="select" path="select.caf"/>
+		<Animation name="idle_ironsight" path="idle_ironsight.caf"/>
+		<Animation name="select_ironsight" path="select_ironsight.caf"/>
+		<Animation name="fire_ironsight" path="fire_ironsight.caf"/>
+	
+		
+	</AnimationList>
+</Params>

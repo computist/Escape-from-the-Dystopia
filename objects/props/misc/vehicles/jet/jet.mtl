@@ -1,0 +1,46 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="Hull" MtlFlags="524416" Shader="Illum" GenMask="402000042001" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%GLOSS_DIFFUSEALPHA%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.21951973,0.21951973,0.21951973" Specular="0.31118053,0.31118053,0.31118053" Emissive="0,0,0" Shininess="220" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/vehicles/jet/textures/jet_exterior_diff.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_scratches_a_detail.tif">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+   </Textures>
+   <PublicParams FresnelScale="1" DetailDiffuseScale="0.25" FresnelBias="1" DetailBumpScale="0.1" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="DDN" MtlFlags="524416" Shader="Illum" GenMask="402000040201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_DIFFUSEALPHA%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.31118053,0.31118053,0.31118053" Specular="0.047775757,0.047775757,0.047775757" Emissive="0,0,0" Shininess="80" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/vehicles/jet/textures/jet_interior_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/vehicles/jet/textures/jet_interior_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Glass" MtlFlags="526496" Shader="Glass" GenMask="90010" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP%GLOSS_MAP" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0,0,0" Specular="0.21951973,0.21951973,0.21951973" Emissive="0,0,0" Shininess="180" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Specular" File="objects/props/misc/vehicles/small_plane/textures/zr_windows_destroyed_spec.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/forest/cubemap_forest_a_cm.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="0.21951973,0.21951973,0.21951973" FresnelScale="1" FresnelBias="0.5" TintCloudiness="0.02" BackLightScale="0.1" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Glow" MtlFlags="524416" Shader="Illum" GenMask="400000000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.21951973,0.21951973,0.21951973" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" GlowAmount="5" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/vehicles/jet/textures/jet_interior_diff.tif"/>
+   </Textures>
+   <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Paint" MtlFlags="524416" Shader="Illum" GenMask="402000042001" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%GLOSS_DIFFUSEALPHA%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.10588236,0.1254902,0.18039216" Specular="0.27843139,0.37647063,0.52156866" Emissive="0,0,0" Shininess="60" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/vehicles/jet/textures/jet_exterior_diff.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_scratches_a_detail.tif">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+   </Textures>
+   <PublicParams FresnelScale="1" DetailDiffuseScale="0.75" FresnelBias="0.25" DetailBumpScale="0.1" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="NoDraw" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

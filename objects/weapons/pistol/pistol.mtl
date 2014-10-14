@@ -1,0 +1,40 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="pistol" MtlFlags="524416" Shader="Illum" GenMask="400080092203" StringGenMask="%ALLOW_SILHOUETTE_POM%ALPHAGLOW%BUMP_MAP%DETAIL_MAPPING%ENVIRONMENT_MAP%GLOSS_MAP%SPECULARPOW_GLOSSALPHA%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.12752977,0.12752977,0.12752977" Specular="0.078056589,0.078056589,0.078056589" Emissive="0,0,0" Shininess="255" Opacity="1" GlowAmount="4" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/pistol/textures/pistol_diff.tif"/>
+    <Texture Map="Specular" File="objects/weapons/pistol/textures/pistol_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/pistol/textures/pistol_ddn.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/forest/cubemap_forest_b_cm.dds"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/detail_metal_detail.dds">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0.5" SpecMapChannelR="0.5" GlossMapChannelB="0.5" SpecMapChannelG="0.5" FresnelScale="2" DetailDiffuseScale="0.5" AmbientMultiplier="1" FresnelBias="1" DetailBumpScale="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="grip" MtlFlags="524416" Shader="Illum" GenMask="400000080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.013473397,0.013473397,0.013473397" Specular="0.5174014,0.5174014,0.5174014" Emissive="0,0,0" Shininess="180" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/grey.dds"/>
+    <Texture Map="Specular" File="objects/weapons/pistol/textures/pistol_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/pistol/textures/pistol_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0.26499999" SpecMapChannelR="0" GlossMapChannelB="0.46200001" SpecMapChannelG="0" FresnelScale="8.79" FresnelBias="0.73500001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="decals" MtlFlags="524416" Shader="Illum" GenMask="400080092201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING%ENVIRONMENT_MAP%GLOSS_MAP%SPECULARPOW_GLOSSALPHA%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.058187179,0.058187179,0.058187179" Specular="0.35374093,0.35374093,0.35374093" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/pistol/textures/pistol_diff.tif"/>
+    <Texture Map="Specular" File="objects/weapons/pistol/textures/pistol_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/pistol/textures/pistol_ddn.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/forest/cubemap_forest_b_cm.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/detail_metal_detail.dds">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0.77999997" SpecMapChannelG="0" FresnelScale="8" DetailDiffuseScale="0.5" FresnelBias="0.5" DetailBumpScale="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

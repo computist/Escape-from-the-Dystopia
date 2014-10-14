@@ -1,0 +1,6 @@
+<download name="Escape_from_the_Dystopia" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="1015090" md5="7bf4fbab1877389545adacb5fc7d934b"/>
+ </files>
+</download>

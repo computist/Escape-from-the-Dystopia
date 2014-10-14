@@ -1,0 +1,29 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="Metal_1" MtlFlags="524416" Shader="Illum" GenMask="400080092201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING%ENVIRONMENT_MAP%GLOSS_MAP%SPECULARPOW_GLOSSALPHA%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.17677432,0.17677432,0.17677432" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/rifle/textures/rifle_a_diff.tif" Filter="5"/>
+    <Texture Map="Specular" File="objects/weapons/rifle/textures/rifle_a_spec.tif" Filter="5"/>
+    <Texture Map="Bumpmap" File="objects/weapons/rifle/textures/rifle_a_ddn.tif" Filter="5"/>
+    <Texture Map="Environment" File="textures/cubemaps/env_metal.tif" Filter="5"/>
+    <Texture Map="Detail" File="objects/weapons/rifle/textures/rifle_noise_ddn.tif">
+     <TexMod TileU="40" TileV="40"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0.366" SpecMapChannelG="0" FresnelScale="4.27" DetailDiffuseScale="0.71799999" FresnelBias="0.215" DetailBumpScale="0" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Metal_2" MtlFlags="524416" Shader="Illum" GenMask="400000090201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%ENVIRONMENT_MAP%GLOSS_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.14497213,0.14497213,0.14497213" Emissive="0,0,0" Shininess="91" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/rifle/textures/rifle_b_diff.tif" Filter="5"/>
+    <Texture Map="Specular" File="objects/weapons/rifle/textures/rifle_b_spec.tif" Filter="5"/>
+    <Texture Map="Bumpmap" File="objects/weapons/rifle/textures/rifle_b_ddn.tif" Filter="5"/>
+    <Texture Map="Environment" File="textures/cubemaps/env_plastic.tif" Filter="5"/>
+    <Texture Map="Detail" File="objects/weapons/rifle/textures/rifle_noise_ddn.tif">
+     <TexMod TileU="30" TileV="30"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1.03" FresnelBias="0.778" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

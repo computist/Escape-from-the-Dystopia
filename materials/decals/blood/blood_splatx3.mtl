@@ -1,0 +1,6 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="800" StringGenMask="%DECAL" SurfaceType="" MatTemplate="" Diffuse="0.26317474,0.067724593,0.073827766" Specular="0.022012994,0.022012994,0.022012994" Emissive="0,0,0" Shininess="225" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/sprites/blood/wblood_3x.tif"/>
+ </Textures>
+ <PublicParams FresnelPower="2.2290001" GlossFromDiffuseContrast="1" FresnelScale="0.50999999" GlossFromDiffuseOffset="0" FresnelBias="0.315" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>
